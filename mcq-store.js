@@ -31,6 +31,30 @@ const quizData = [
         d: "none of the above",
         correct: "b",
     },
+    {
+        question: "What is the correct syntax of doctype in HTML5?",
+        a: "</doctype html>",
+        b: "<doctype html>",
+        c: "<doctype html!>",
+        d: "<!doctype html>",
+        correct: "d",
+    },
+    {
+        question: "Which of the following tag is used for inserting the largest heading in HTML?",
+        a: "head",
+        b: "<h1>",
+        c: "<h6>",
+        d: "heading",
+        correct: "b",
+    },
+    {
+        question: "Which element is used to get highlighted text in HTML5?",
+        a: "<u>",
+        b: "<mark>",
+        c: "<highlight>",
+        d: "<b>",
+        correct: "b",
+    },
 ];
 
 const quiz = document.getElementById('quiz')
